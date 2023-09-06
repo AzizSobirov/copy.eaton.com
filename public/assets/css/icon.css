@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("clientlib-all/resources/fonts/glyphicons-halflings-regular.eot");
+  src: url("clientlib-all/resources/fonts/glyphicons-halflings-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("clientlib-all/resources/fonts/glyphicons-halflings-regular.woff2")
+      format("woff2"),
+    url("clientlib-all/resources/fonts/glyphicons-halflings-regular.woff")
+      format("woff"),
+    url("clientlib-all/resources/fonts/glyphicons-halflings-regular.ttf")
+      format("truetype"),
+    url("clientlib-all/resources/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular")
+      format("svg");
+}
