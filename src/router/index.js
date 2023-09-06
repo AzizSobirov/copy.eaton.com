@@ -9,47 +9,25 @@ router.get("/", async (req, res) => {
   res.render("index", data);
 });
 
-router.get("/car", async (req, res) => {
+router.get("/page-2", async (req, res) => {
   const data = {
-    title: "Займ под залог автомобиля",
+    title: "Page 2",
   };
-  res.render("car", data);
+  res.render("page-2", data);
 });
-router.get("/pts", async (req, res) => {
+
+router.get("/page-3", async (req, res) => {
   const data = {
-    title: "Займ под залог птс",
+    title: "Page 3",
   };
-  res.render("pts", data);
+  res.render("page-3", data);
 });
-router.get("/truck", async (req, res) => {
+
+router.get("/page-4", async (req, res) => {
   const data = {
-    title: "Займ под залог грузовых авто",
+    title: "Page 4",
   };
-  res.render("truck", data);
-});
-router.get("/water-equipment", async (req, res) => {
-  const data = {
-    title: "Займ под залог водной техники",
-  };
-  res.render("water-equipment", data);
-});
-router.get("/refinancing", async (req, res) => {
-  const data = {
-    title: "Рефинансирование",
-  };
-  res.render("refinancing", data);
-});
-router.get("/about", async (req, res) => {
-  const data = {
-    title: "О нас",
-  };
-  res.render("about", data);
-});
-router.get("/clients", async (req, res) => {
-  const data = {
-    title: "Клиентам",
-  };
-  res.render("clients", data);
+  res.render("page-4", data);
 });
 
 export default router;
